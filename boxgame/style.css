@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+h1 {
+  color: #222;
+}
+
+.game-area {
+  margin: 20px auto;
+  width: 400px;
+  height: 400px;
+  background: white;
+  border: 2px solid #333;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Blue box (player) */
+.player {
+  width: 40px;
+  height: 40px;
+  background: royalblue;
+  position: absolute;
+  top: 180px;
+  left: 180px;
+  border-radius: 6px;
+  transition: all 0.05s linear;
+}
+
+/* Red box (target to catch) */
+.target {
+  width: 40px;
+  height: 40px;
+  background: crimson;
+  position: absolute;
+  border-radius: 6px;
+}
